@@ -35,6 +35,21 @@ blockquote footer {
     font-size: 18px;
 }
 
+footer{
+    padding: 30px;;
+}
+
+footer p{
+    color:#333333;
+    font-weight:bold;
+}
+
+.label {
+    color:#333; 
+    font-weight:700;
+    font-size:14px;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -65,7 +80,7 @@ blockquote footer {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px;
 }
 
 .bloc-md {
@@ -139,7 +154,7 @@ blockquote footer {
     border-color: rgba(255, 255, 255, .2);
 }
 
-.d-bloc .a-btn,
+/* .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
@@ -171,7 +186,7 @@ blockquote footer {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
-}
+} */
 
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
@@ -236,7 +251,7 @@ blockquote footer {
     border-color: rgba(0, 0, 0, .1);
 }
 
-.d-bloc .panel .a-btn,
+/* .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
@@ -252,9 +267,9 @@ blockquote footer {
 .l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
-}
+} */
 
-.d-bloc .panel .a-btn:hover,
+/* .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
 .l-bloc .navbar a:hover,
 .l-bloc .navbar-brand:hover,
@@ -270,7 +285,7 @@ blockquote footer {
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
-}
+} */
 
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
@@ -310,7 +325,7 @@ blockquote footer {
 .navbar {
     margin: 20px auto;
     z-index: 1;
-    max-width: 1440px;
+    max-width: 1000px;
 }
 
 .navbar-brand {
@@ -526,9 +541,8 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
-.form-control {
-    border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
+.contact {
+    margin-top: 40px;;
 }
 
 .scrollToTop {
@@ -722,7 +736,13 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin:20px auto;
+    color:#ffffff;
+    font-size:40px;
+}
+
+.social:hover{
+    color:#333333;
 }
 
 h2 {
@@ -763,6 +783,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    display: inline;
 }
 
 .portfolio-row {
@@ -797,17 +818,22 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C;
+    color: #ffffff;
+}
+
+.tc-black {
+    color: #333333;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF;
+    background: #333333;
+    color: #eea684;
+    border-color: #eea684;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956;
-    color: #FFFFFF;
+    background: #eea684;
+    color: #000000;
 }
 
 .ltc-white {
