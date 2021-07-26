@@ -59,7 +59,9 @@ footer p{
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
-
+h1 small{
+    color:#ffffff;
+}
 
 .bloc {
     width: 100%;
