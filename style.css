@@ -48,6 +48,8 @@ footer p{
     color:#333; 
     font-weight:700;
     font-size:14px;
+    margin-bottom: 10px;
+    display: block;
 }
 
 #page-loading-blocs-notifaction {
