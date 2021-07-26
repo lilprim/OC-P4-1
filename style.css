@@ -847,12 +847,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #f35107;
-    font-weight: bold;
+    color: #F3976C;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #f35107;
+    color: #c27956;
     text-decoration: none;
 }
 
@@ -1084,4 +1083,14 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/* Liseuses */
+.sr-only{
+   position:absolute;
+   left:-10000px;
+   top:auto;
+   width:1px;
+   height:1px;
+   overflow:hidden;
 }
